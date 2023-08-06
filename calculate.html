@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Калькулятор разбавления спирта водой</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Калькулятор разбавления спирта водой</h1>
+    <form>
+      <label for="alcohol-concentration">Концентрация спирта, %:</label>
+      <input type="number" id="alcohol-concentration" name="alcohol-concentration">
+      <br>
+      <label for="alcohol-volume">Объем спирта, мл:</label>
+      <input type="number" id="alcohol-volume" name="alcohol-volume">
+      <br>
+      <label for="final-concentration">Желаемая концентрация, %:</label>
+      <input type="number" id="final-concentration" name="final-concentration">
+      <br>
+      <button onclick="calculate()">Рассчитать</button>
+    </form>
+  </body>
+</html>
